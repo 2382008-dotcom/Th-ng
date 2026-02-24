@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CLB THPT Võ Nguyên Giáp</title>
+
+
+</div>
+</header>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+/* ===== FORM ĐĂNG KÝ ===== */
+
+.register-form{
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-top:20px;
+}
+
+.register-form input,
+.register-form select,
+.register-form textarea{
+padding:12px;
+border-radius:10px;
+border:1px solid gold;
+background:rgba(0,0,0,0.6);
+color:white;
+outline:none;
+}
+
+.register-form input:focus,
+.register-form select:focus,
+.register-form textarea:focus{
+box-shadow:0 0 15px gold;
+}
+
+.register-form button{
+padding:12px;
+border:none;
+border-radius:10px;
+background:linear-gradient(90deg,gold,orange);
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+.register-form button:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px gold;
+}
+
+/* ===== TIÊU ĐỀ ===== */
+.main-title{
+text-align:center;
+font-size:42px;
+font-weight:900;
+margin-top:120px;
+margin-bottom:50px;
+background:linear-gradient(90deg,gold,white,gold);
+-webkit-background-clip:text;
+color:transparent;
+text-shadow:0 0 25px gold;
+}
+
+/* ===== NỀN ===== */
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+color:white;
+background:linear-gradient(-45deg,#0f2027,#203a43,#1e3c72,#000);
+background-size:400% 400%;
+animation:bgMove 15s ease infinite;
+}
+
+@keyframes bgMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+/* ===== NAV ===== */
+nav{
+position:fixed;
+top:0;
+width:100%;
+padding:15px;
+text-align:center;
+background:rgba(0,0,0,0.7);
+border-bottom:2px solid gold;
+z-index:1000;
+}
+
+nav a{
+color:gold;
+margin:0 12px;
+font-weight:bold;
+}
+
+/* ===== SECTION ===== */
+section{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:80px 20px;
+}
+
+.card{
+background:rgba(255,255,255,0.08);
+border-radius:20px;
+padding:30px;
+max-width:900px;
+border:1px solid gold;
+box-shadow:0 0 25px rgba(255,215,0,0.3);
+}
+
+.title{
+font-size:30px;
+font-weight:900;
+text-align:center;
+margin-bottom:15px;
+color:gold;
+}
+
+img{
+width:100%;
+border-radius:15px;
+margin-top:15px;
+}
+
+/* ===== BẢNG ===== */
+table{
+width:90%;
+margin:60px auto;
+border-collapse:collapse;
+background:rgba(0,0,0,0.6);
+box-shadow:0 0 25px rgba(255,215,0,0.4);
+}
+
+th{
+background:gold;
+color:black;
+padding:12px;
+border:1px solid black;
+}
+
+td{
+padding:12px;
+border:1px solid rgba(255,255,255,0.5);
+text-align:center;
+}
+
+tr:nth-child(even){
+background:rgba(255,255,255,0.05);
+}
+
+tr:hover{
+background:rgba(255,215,0,0.2);
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#stem">STEM</a>
+<a href="#vanhoa">Văn hóa đọc</a>
+<a href="#songxanh">Sống xanh</a>
+<a href="#tienganh">Tiếng Anh</a>
+<a href="#thethao">Thể thao</a>
+<a href="#phapluat">Pháp luật</a>
+<a href="#vannhe">Văn nghệ</a>
+</nav>
+
+<header class="main-title">
+CÂU LẠC BỘ TRƯỜNG THPT VÕ NGUYÊN GIÁP
+<div class="author">
+Được thiết kế bởi Trần Minh Thắng - 12A3
+</div>
+</header>
+
+<!-- STEM -->
+<section id="stem">
+<div class="card">
+<div class="title">CLB STEM</div>
+<p><strong>Tôn chỉ:</strong> Phát triển tư duy khoa học và sáng tạo công nghệ.</p>
+<p><strong>Tiêu chí:</strong> Đam mê nghiên cứu, tư duy logic, chủ động học hỏi.</p>
+<p><strong>Lịch hoạt động:</strong> Thứ 4 (Thí nghiệm), Thứ 7 (Thiết kế sản phẩm).</p>
+<a href="https://ibb.co/FkcTC26W"><img src="https://i.ibb.co/RGtwdf2S/IMG-1771434493322-1771434588527.jpg" alt="IMG-1771434493322-1771434588527" border="0"></a>
+</div>
+</section>
+
+<!-- Văn hóa đọc -->
+<section id="vanhoa">
+<div class="card">
+<div class="title">CLB Văn hóa đọc</div>
+<p><strong>Tôn chỉ:</strong> Lan tỏa văn hóa đọc và phát triển tư duy phản biện.</p>
+<p><strong>Tiêu chí:</strong> Yêu sách, chia sẻ kiến thức, tham gia tích cực.</p>
+<p><strong>Lịch hoạt động:</strong> Thứ 4(Đọc sách).</p>
+<a href="https://ibb.co/KzXvQfnr"><img src="https://i.ibb.co/yBXjMZ2Q/IMG-1771676369962-1771676385757.jpg" alt="IMG-1771676369962-1771676385757" border="0"></a>
+</div>
+</section>
+
+<!-- Sống xanh -->
+<section id="songxanh">
+<div class="card">
+<div class="title">CLB Sống xanh</div>
+<p><strong>Tôn chỉ:</strong> Bảo vệ môi trường học đường.</p>
+<p><strong>Tiêu chí:</strong> Trách nhiệm, hành động tích cực.</p>
+<p><strong>Lịch hoạt động:</strong> Chủ nhật (Dọn rác), Thứ 4(Trồng cây).</p>
+<a href="https://ibb.co/xt054b59"><img src="https://i.ibb.co/7d5y9DyM/CLB-SX-2.jpg" alt="CLB-SX-2" border="0"></a>
+</div>
+</section>
+
+<!-- Tiếng Anh -->
+<section id="tienganh">
+<div class="card">
+<div class="title">CLB Tiếng Anh</div>
+<p><strong>Tôn chỉ:</strong> Phát triển kỹ năng giao tiếp tiếng Anh.</p>
+<p><strong>Tiêu chí:</strong> Tự tin, chủ động, kiên trì.</p>
+<p><strong>Lịch hoạt động:</strong> Thứ 4 (Speaking), .</p>
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+</div>
+</section>
+
+<!-- Thể thao -->
+<section id="thethao">
+<div class="card">
+<div class="title">CLB Thể thao</div>
+<p><strong>Tôn chỉ:</strong> Rèn luyện thể chất và tinh thần đồng đội.</p>
+<p><strong>Tiêu chí:</strong> Kỷ luật, bền bỉ, fair-play.</p>
+<p><strong>Lịch hoạt động:</strong> Thứ 4  (Bóng đá, bóng chuyền).</p>
+<a href="https://ibb.co/pv4TtL0G"><img src="https://i.ibb.co/svs40Vmk/IMG-1771676370099-1771676387907.jpg" alt="IMG-1771676370099-1771676387907" border="0"></a>
+</div>
+</section>
+
+<!-- Pháp luật -->
+<section id="phapluat">
+<div class="card">
+<div class="title">CLB Pháp luật</div>
+<p><strong>Tôn chỉ:</strong> Nâng cao hiểu biết pháp luật.</p>
+<p><strong>Tiêu chí:</strong> Trung thực, tư duy phản biện.</p>
+<p><strong>Lịch hoạt động:</strong> Thứ 4 (Tìm hiểu luật), .</p>
+<a href="https://ibb.co/hR6HCn9H"><img src="https://i.ibb.co/279P5LhP/IMG-1771685159612-1771685209124.jpg" alt="IMG-1771685159612-1771685209124" border="0"></a>
+</div>
+</section>
+
+<!-- Văn nghệ -->
+<section id="vannhe">
+<div class="card">
+<div class="title">CLB Văn nghệ</div>
+<p><strong>Tôn chỉ:</strong> Phát triển tài năng nghệ thuật.</p>
+<p><strong>Tiêu chí:</strong> Sáng tạo, tự tin biểu diễn.</p>
+<p><strong>Lịch hoạt động:</strong>  4 (Tập luyện).</p>
+<a href="https://ibb.co/JR5wXDCH"><img src="https://i.ibb.co/ynWcLHVq/Vannghe4.jpg" alt="Vannghe4" border="0"></a>
+</div>
+</section>
+
+<table>
+<tr>
+<th>STT</th>
+<th>Tuần</th>
+<th>Câu lạc bộ</th>
+<th>Người phụ trách</th>
+</tr>
+<tr><td>1</td><td>1</td><td>CLB STEM</td><td>Phan Thị Điệp</td></tr>
+<tr><td>2</td><td>1</td><td>CLB Văn hóa đọc</td><td>Vũ Thị Lan Hương</td></tr>
+<tr><td>3</td><td>2</td><td>CLB Sống xanh</td><td>Nguyễn Thị Thúy Hằng</td></tr>
+<tr><td>4</td><td>2</td><td>CLB Pháp luật</td><td>Phạm Thị Tám</td></tr>
+<tr><td>5</td><td>3</td><td>CLB Văn nghệ</td><td>Nguyễn Thị Ly</td></tr>
+<tr><td>6</td><td>4</td><td>CLB Tiếng Anh</td><td>Nguyễn Thanh Nhã</td></tr>
+<tr><td>7</td><td>4</td><td>CLB Thể dục thể thao</td><td>Đỗ Tấn Khương</td></tr>
+</table>
+<!-- ĐĂNG KÝ THAM GIA -->
+<section id="dangky">
+<div class="card">
+<div class="title">ĐĂNG KÝ THAM GIA CÂU LẠC BỘ</div>
+
+<form class="register-form">
+
+<input type="text" placeholder="Họ và tên" required>
+<input type="text" placeholder="Lớp" required>
+
+<select required>
+<option value="">-- Chọn câu lạc bộ --</option>
+<option>CLB STEM</option>
+<option>CLB Văn hóa đọc</option>
+<option>CLB Sống xanh</option>
+<option>CLB Tiếng Anh</option>
+<option>CLB Thể thao</option>
+<option>CLB Pháp luật</option>
+<option>CLB Văn nghệ</option>
+</select>
+
+<textarea placeholder="Lý do tham gia..." rows="4"></textarea>
+
+<button type="submit">ĐĂNG KÝ NGAY</button>
+
+</form>
+</div>
+</section>
+</body>
+</html>
